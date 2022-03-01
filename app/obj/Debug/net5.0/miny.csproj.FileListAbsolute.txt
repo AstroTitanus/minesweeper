@@ -1,0 +1,16 @@
+F:\School\Programovanie\OP\miny\app\obj\Debug\net5.0\miny.csproj.AssemblyReference.cache
+F:\School\Programovanie\OP\miny\app\obj\Debug\net5.0\miny.GeneratedMSBuildEditorConfig.editorconfig
+F:\School\Programovanie\OP\miny\app\obj\Debug\net5.0\miny.AssemblyInfoInputs.cache
+F:\School\Programovanie\OP\miny\app\obj\Debug\net5.0\miny.AssemblyInfo.cs
+F:\School\Programovanie\OP\miny\app\obj\Debug\net5.0\miny.csproj.CoreCompileInputs.cache
+F:\School\Programovanie\OP\miny\app\bin\Debug\net5.0\miny.exe
+F:\School\Programovanie\OP\miny\app\bin\Debug\net5.0\miny.deps.json
+F:\School\Programovanie\OP\miny\app\bin\Debug\net5.0\miny.runtimeconfig.json
+F:\School\Programovanie\OP\miny\app\bin\Debug\net5.0\miny.runtimeconfig.dev.json
+F:\School\Programovanie\OP\miny\app\bin\Debug\net5.0\miny.dll
+F:\School\Programovanie\OP\miny\app\bin\Debug\net5.0\ref\miny.dll
+F:\School\Programovanie\OP\miny\app\bin\Debug\net5.0\miny.pdb
+F:\School\Programovanie\OP\miny\app\obj\Debug\net5.0\miny.dll
+F:\School\Programovanie\OP\miny\app\obj\Debug\net5.0\ref\miny.dll
+F:\School\Programovanie\OP\miny\app\obj\Debug\net5.0\miny.pdb
+F:\School\Programovanie\OP\miny\app\obj\Debug\net5.0\miny.genruntimeconfig.cache
