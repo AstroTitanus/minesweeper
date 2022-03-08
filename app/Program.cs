@@ -21,8 +21,8 @@ namespace miny
         int GamefieldSize { get; set; }
         int MineCount { get; set; }
         int RevealedFields { get; set; }
-        Point[] MinesPoints { get; set; }
-        int[,] Gamefield { get; set; }
+        public Point[] MinesPoints { get; set; }
+        public int[,] Gamefield { get; set; }
         string[,] GameFieldStr { get; set; }
 
         public Miny(int gamefieldSize = 5, int mineCount = 5) 
@@ -33,10 +33,10 @@ namespace miny
             Gamefield = new int[GamefieldSize, GamefieldSize];
             GameFieldStr = new string[GamefieldSize, GamefieldSize];
 
-            GenerateMines();
-            InstertMines();
-            CalcProximities();
-            FillGameFieldStr();
+            // GenerateMines();
+            // InstertMines();
+            // CalcProximities();
+            // FillGameFieldStr();
         }
 
         public void PrintField(string field = "out", bool gridNums = false)
@@ -261,6 +261,13 @@ namespace miny
 
         public void Play()
         {
+            // Inits
+            GenerateMines();
+            InstertMines();
+            CalcProximities();
+            FillGameFieldStr();
+
+            // Game loop
             bool loop = true;
             string errorMessage = "";
             while (loop)
@@ -359,11 +366,25 @@ namespace miny
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!\n");
+            // int mineCount = 3;
+            // Miny minyHra = new Miny(gamefieldSize: 4, mineCount: mineCount);
+            // minyHra.MinesPoints = new Point[mineCount];
+
+            // minyHra.MinesPoints[0] = new Point(0, 0);
+            // minyHra.MinesPoints[1] = new Point(0, 1);
+            // minyHra.MinesPoints[2] = new Point(0, 2);
+            //             minyHra.InstertMines();
+
+
+            // int[,] bigArr = minyHra.GetBiggerArrayForProxCalc();
+            // foreach (int item in bigArr) {
+            //     Console.WriteLine(item);
+            // }
 
             Miny minyHra = new Miny(gamefieldSize: 5, mineCount: 3);
+            // minyHra.MinesPoints;
             
-            // DEBUG vypíše odhalené pole mín
+            // DEBHUG vypíše odhalené pole mín
             // int[,] arr = minyHra.GetBiggerArrayForProxCalc();
             // for (int i = 0; i < arr.GetLength(0); i++)
             // {

@@ -4,6 +4,58 @@
     "F:\\School\\Programovanie\\OP\\miny\\tests\\tests.csproj": {}
   },
   "projects": {
+    "F:\\School\\Programovanie\\OP\\miny\\app\\miny.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\School\\Programovanie\\OP\\miny\\app\\miny.csproj",
+        "projectName": "miny",
+        "projectPath": "F:\\School\\Programovanie\\OP\\miny\\app\\miny.csproj",
+        "packagesPath": "C:\\Users\\Simon\\.nuget\\packages\\",
+        "outputPath": "F:\\School\\Programovanie\\OP\\miny\\app\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Simon\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "F:\\School\\Programovanie\\OP\\miny\\tests\\tests.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -25,7 +77,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "F:\\School\\Programovanie\\OP\\miny\\app\\miny.csproj": {
+                "projectPath": "F:\\School\\Programovanie\\OP\\miny\\app\\miny.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
